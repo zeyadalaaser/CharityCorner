@@ -1,0 +1,24 @@
+  .nav-item {
+    margin: 10 50px; /* Adjust margin as needed */
+  }
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+    margin-bottom: 10 50px;
+  }
+  
+  .nav-link {
+    font-family: Arial, sans-serif; /* Example font family */
+    font-size: 16px; /* Example font size */
+    color: #cbe2f3; /* Example font color */
+    margin-right: 20px; /* Example spacing between links */
+    background-color: #666666; /* Example background color */
+    padding: 10px 15px; /* Adjust padding to add space around the link text */
+    transition: border-bottom-color 0.3s ease; /* Example transition effect */
+  }
+  
+  .nav-link:hover {
+    border-bottom-color: #8e8b8c; /* Example border color on hover */
+  }
+  

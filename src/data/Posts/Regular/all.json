@@ -1,0 +1,626 @@
+[
+    {
+        "id": 1,
+        "type": "Clothes",
+        "organization": "Resala",
+        "description": "We are in need of winter clothing for homeless individuals.",
+        "requirements": [
+            {
+                "itemName": "Jackets",
+                "age": "Adults",
+                "gender": "Male",
+                "season": "Winter",
+                "material": "Polyester",
+                "quantity": 50
+            },
+            {
+                "itemName": "Hats",
+                "age": "Adults",
+                "gender": "Female",
+                "season": "Winter",
+                "material": "Wool",
+                "quantity": 30
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "type": "Clothes",
+        "organization": "Resala",
+        "description": "We are in need of summer clothing for children.",
+        "requirements": [
+            {
+                "itemName": "T-shirts",
+                "age": "Kids",
+                "gender": "Unisex",
+                "season": "Summer",
+                "material": "Cotton",
+                "quantity": 100
+            },
+            {
+                "itemName": "Shorts",
+                "age": "Kids",
+                "gender": "Unisex",
+                "season": "Summer",
+                "material": "Polyester",
+                "quantity": 80
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "type": "Clothes",
+        "organization": "Resala",
+        "description": "We are in need of spring clothing for adults.",
+        "requirements": [
+            {
+                "itemName": "Dresses",
+                "age": "Adults",
+                "gender": "Female",
+                "season": "Spring",
+                "material": "Silk",
+                "quantity": 60
+            },
+            {
+                "itemName": "Shirts",
+                "age": "Adults",
+                "gender": "Male",
+                "season": "Spring",
+                "material": "Linen",
+                "quantity": 70
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "type": "Clothes",
+        "organization": "Resala",
+        "description": "We are in need of fall clothing for elderly individuals.",
+        "requirements": [
+            {
+                "itemName": "Sweaters",
+                "age": "0-2 years",
+                "gender": "Unisex",
+                "season": "Fall",
+                "material": "Wool",
+                "quantity": 40
+            },
+            {
+                "itemName": "Pants",
+                "age": "Adults",
+                "gender": "Unisex",
+                "season": "Fall",
+                "material": "Cotton",
+                "quantity": 50
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "type": "Clothes",
+        "organization": "Resala",
+        "description": "We are in need of jackets for kids.",
+        "requirements": [
+            {
+                "itemName": "Jackets",
+                "age": "Kids",
+                "gender": "Unisex",
+                "season": "Spring",
+                "material": "Nylon",
+                "quantity": 20
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "type": "Clothes",
+        "organization": "Resala",
+        "description": "We are in need of formal wear for adults.",
+        "requirements": [
+            {
+                "itemName": "Suits",
+                "age": "Adults",
+                "gender": "Male",
+                "season": "All Seasons",
+                "material": "Wool",
+                "quantity": 15
+            },
+            {
+                "itemName": "Dresses",
+                "age": "Adults",
+                "gender": "Female",
+                "season": "All Seasons",
+                "material": "Silk",
+                "quantity": 20
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "type": "Clothes",
+        "organization": "Resala",
+        "description": "We are in need of swimwear for teenagers.",
+        "requirements": [
+            {
+                "itemName": "Swimsuits",
+                "age": "Teens",
+                "gender": "Unisex",
+                "season": "Summer",
+                "material": "Spandex",
+                "quantity": 25
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "type": "Clothes",
+        "organization": "Resala",
+        "description": "We are in need of winter clothing for Adults.",
+        "requirements": [
+            {
+                "itemName": "Coats",
+                "age": "Adults",
+                "gender": "Unisex",
+                "season": "Winter",
+                "material": "Cashmere",
+                "quantity": 10
+            },
+            {
+                "itemName": "Scarves",
+                "age": "Adults",
+                "gender": "Unisex",
+                "season": "Winter",
+                "material": "Wool",
+                "quantity": 15
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "type": "Clothes",
+        "organization": "Resala",
+        "description": "We are in need of activewear for adults.",
+        "requirements": [
+            {
+                "itemName": "Sweatpants",
+                "age": "Adults",
+                "gender": "Male",
+                "season": "All Seasons",
+                "material": "Cotton",
+                "quantity": 25
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "type": "Clothes",
+        "organization": "Resala",
+        "description": "We are in need of baby clothing.",
+        "requirements": [
+            {
+                "itemName": "Onesies",
+                "age": "Babies",
+                "gender": "Unisex",
+                "season": "All Seasons",
+                "material": "Cotton",
+                "quantity": 40
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "type": "School Supplies",
+        "organization": "Resala",
+        "description": "We need stationery supplies for our students.",
+        "requirements": [
+            {
+                "type": "stationery",
+                "item": "Notebooks",
+                "quantity": 150
+            },
+            {
+                "type": "stationery",
+                "itemName": "Pens",
+                "quantity": 200
+            },
+            {
+                "type": "stationery",
+                "itemName": "Markers",
+                "quantity": 100
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "type": "School Supplies",
+        "organization": "Resala",
+        "description": "We require educational books for our library.",
+        "requirements": [
+            {
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhGTX8en83n1A2B2Dyn_8AciMQQtPBaYyXMyWdEyr_zg&s",
+                "type": "Books",
+                "itemName": "History of World War II",
+                "author": "Robert Johnson",
+                "language": "English",
+                "edition": "1st Edition",
+                "summary": "A comprehensive study of World War II events.",
+                "quantity": 25
+            },
+            {
+                "image": "https://www.wildapricot.com/wp-content/uploads/2023/02/donation-button.png",
+                "type": "Books",
+                "itemName": "Physics for High School Students",
+                "author": "Emily White",
+                "language": "English",
+                "edition": "3rd Edition",
+                "summary": "Fundamental physics concepts for high school students.",
+                "quantity": 35
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "type": "School Supplies",
+        "organization": "Resala",
+        "description": "We are seeking donations for essential school supplies.",
+        "requirements": [
+            {
+                "type": "stationery",
+                "itemName": "Rulers",
+                "quantity": 80
+            },
+            {
+                "image": "https://www.goaoutreach.org/Charity-Blog/2017/01-School-Bag-Donations.jpg",
+                "type": "Books",
+                "itemName": "Chemistry Essentials",
+                "author": "Sarah Adams",
+                "language": "English",
+                "edition": "2nd Edition",
+                "summary": "Key concepts and principles of chemistry.",
+                "quantity": 20
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "type": "School Supplies",
+        "organization": "Resala",
+        "description": "We need art supplies for our school art program.",
+        "requirements": [
+            {
+                "type": "stationery",
+                "itemName": "Paint Brushes",
+                "quantity": 50
+            },
+            {
+                "image": "https://buckethats.ie/wp-content/uploads/2022/09/donation-box-throwing-hearts-in-a-box-for-donations-donate-giving-money-and-love-concept-of-charity-give-and-share-your-love-with-people-humanitarian-volunteer-activity-vector.webp",
+                "type": "Books",
+                "itemName": "Art History",
+                "author": "Michael Brown",
+                "language": "English",
+                "edition": "4th Edition",
+                "summary": "A comprehensive study of art history from ancient times to modern era.",
+                "quantity": 15
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "type": "School Supplies",
+        "organization": "Resala",
+        "description": "We require donations for school textbooks.",
+        "requirements": [
+            {
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhGTX8en83n1A2B2Dyn_8AciMQQtPBaYyXMyWdEyr_zg&s",
+                "type": "Books",
+                "itemName": "Mathematics for Beginners",
+                "author": "Linda Johnson",
+                "language": "English",
+                "edition": "2nd Edition",
+                "summary": "Basic mathematics concepts for beginners.",
+                "quantity": 40
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "type": "Toys",
+        "organization": "Resala",
+        "description": "We need toys for children in our shelter.",
+        "requirements": [
+            {
+                "image": "https://alexanderdevine.org/wp-content/uploads/2022/07/Copy-of-Soft-toys-wanted.png",
+                "itemName": "Stuffed Toys",
+                "age": "0-2 years",
+                "gender": "Unisex",
+                "category": "Stuffed Toys",
+                "quantity": 20
+            },
+            {
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyhkBND8SN16bahzgPXmTWeaXMPbGEJODqJuD0C8--Nw&s",
+                "itemName": "Board Games",
+                "age": "6-10 years",
+                "gender": "Unisex",
+                "category": "Board Games",
+                "quantity": 15
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "type": "Toys",
+        "organization": "Resala",
+        "description": "We require toys for children in our orphanage.",
+        "requirements": [
+            {
+                "itemName": "Cars",
+                "age": "3-5 years",
+                "gender": "Male",
+                "category": "Cars",
+                "image": "https://www.verywellfamily.com/thmb/UbunHMxsiCkTP0fascQ__UALBAg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1306629971-ac046b93a1f74306b65b079aed470cf6.jpg",
+                "quantity": 25
+            },
+            {
+                "image": "https://www.thecooldown.com/wp-content/uploads/2023/01/0a08310b-1.jpeg?w=876&h=576",
+                "itemName": "Dolls",
+                "age": "6-10 years",
+                "gender": "Female",
+                "category": "Dolls",
+                "quantity": 30
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "type": "Toys",
+        "organization": "Resala",
+        "description": "We are seeking toys for children in our community center.",
+        "requirements": [
+            {
+                "image": "https://www.verywellfamily.com/thmb/UbunHMxsiCkTP0fascQ__UALBAg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1306629971-ac046b93a1f74306b65b079aed470cf6.jpg",
+                "itemName": "Sports Equipment",
+                "age": "6-10 years",
+                "gender": "Unisex",
+                "category": "Sports",
+                "quantity": 20
+            },
+            {
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKpT0KX1RfZYGe2zghoWMej5xelALBc1Ld8ICn4JbTRg&s",
+                "itemName": "Outdoor Toys",
+                "age": "3-5 years",
+                "gender": "Unisex",
+                "category": "Outdoor",
+                "quantity": 25
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "type": "Toys",
+        "organization": "Resala",
+        "description": "We need educational toys for our preschool program.",
+        "requirements": [
+            {
+                "image": "https://img.freepik.com/premium-photo/donation-box-clothes-children-is-floor-woman-hands-fold-clothes-carefully-donation-charity-concept_177689-597.jpg",
+                "itemName": "Educational Toys",
+                "age": "3-5 years",
+                "gender": "Unisex",
+                "category": "Educational",
+                "quantity": 30
+            },
+            {
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKpT0KX1RfZYGe2zghoWMej5xelALBc1Ld8ICn4JbTRg&s",
+                "itemName": "Puzzles",
+                "age": "6-10 years",
+                "gender": "Unisex",
+                "category": "Board Games",
+                "quantity": 15
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "type": "Toys",
+        "organization": "Resala",
+        "description": "We are in need of art supplies for our children's art program.",
+        "requirements": [
+            {
+                "image": "https://www.thespruce.com/thmb/8gtaTw5Y2DngFcbKBVVFo7qsetc=/1000x0/filters:no_upscale():max_bytes(150000):strip_icc()/where-you-can-donate-toys-3129154-Hero-82be71aa37054036b7743e7f9cdb30df.jpg",
+                "itemName": "Art Supplies",
+                "age": "11+ years",
+                "gender": "Unisex",
+                "category": "Art",
+                "quantity": 20
+            },
+            {
+                "image": "https://www.shutterstock.com/image-vector/donate-button-click-donation-charity-260nw-2339825981.jpg",
+                "itemName": "Building Blocks",
+                "age": "3-5 years",
+                "gender": "Unisex",
+                "category": "Educational",
+                "quantity": 25
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "type": "Food",
+        "organization": "Resala",
+        "description": "We need canned foods for our emergency relief efforts.",
+        "requirements": [
+            {
+                "type": "Canned Foods",
+                "itemName": "Canned Beans",
+                "quantity": "100 cans"
+            },
+            {
+                "type": "Canned Foods",
+                "itemName": "Canned Soup",
+                "quantity": "80 cans"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "type": "Food",
+        "organization": "Resala",
+        "description": "We require fresh meals for our homeless shelter.",
+        "requirements": [
+            {
+                "type": "Fresh Meals",
+                "itemName": "Chicken Curry",
+                "quantity": "50 servings"
+            },
+            {
+                "type": "Fresh Meals",
+                "itemName": "Vegetable Stir Fry",
+                "quantity": "40 servings"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "type": "Food",
+        "organization": "Resala",
+        "description": "We need baked goods for our charity bake sale.",
+        "requirements": [
+            {
+                "type": "Baked Goods",
+                "itemName": "Chocolate Chip Cookies",
+                "quantity": "200 pieces"
+            },
+            {
+                "type": "Baked Goods",
+                "itemName": "Banana Bread",
+                "quantity": "10 loaves"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "type": "Food",
+        "organization": "Resala",
+        "description": "We require fruits and vegetables for our school's nutrition program.",
+        "requirements": [
+            {
+                "type": "Fruits and Vegetables",
+                "itemName": "Oranges",
+                "quantity": "40 KG"
+            },
+            {
+                "type": "Fruits and Vegetables",
+                "itemName": "Broccoli",
+                "quantity": "20 KG"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "type": "Blood Donations",
+        "organization": "Resala",
+        "description": "Urgent need for blood donations at our hospital.",
+        "requirements": [
+            {
+                "patientName": "John Doe",
+                "bloodType": "A+",
+                "hospitalName": "57357",
+                "hospitalArea": "Luxor",
+                "governorate": "Luxor",
+                "hospitalAddress": "123 Main Street"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "type": "Blood Donations",
+        "organization": "Resala",
+        "description": "Blood donation drive for children's hospital.",
+        "requirements": [
+            {
+                "patientName": "Emily Smith",
+                "bloodType": "O-",
+                "hospitalName": "Magdi Yacoub",
+                "hospitalArea": "Maadi Degla",
+                "governorate": "Cairo",
+                "hospitalAddress": "456 Elm Street"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "type": "Blood Donations",
+        "organization": "Resala",
+        "description": "Blood donations needed for emergency surgery.",
+        "requirements": [
+            {
+                "patientName": "Michael Johnson",
+                "bloodType": "B+",
+                "hospitalName": "57357",
+                "hospitalArea": "Miami",
+                "governorate": "Alexandria",
+                "hospitalAddress": "789 Oak Avenue"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "type": "Blood Donations",
+        "organization": "Resala",
+        "description": "Donate blood to help save lives at our local hospital.",
+        "requirements": [
+            {
+                "patientName": "Sarah Williams",
+                "bloodType": "AB-",
+                "hospitalName": "57357",
+                "hospitalArea": "Asyut",
+                "governorate": "Asyut",
+                "hospitalAddress": "101 Pine Street"
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "type": "Blood Donations",
+        "organization": "Resala",
+        "description": "Urgent need for blood donations for accident victims.",
+        "requirements": [
+            {
+                "patientName": "David Brown",
+                "bloodType": "O+",
+                "hospitalName": "Magdi Yacoub",
+                "hospitalArea": "Safaga",
+                "governorate": "Red Sea",
+                "hospitalAddress": "555 Maple Avenue"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "type": "Medical Supplies",
+        "organization": "Resala",
+        "description": "Urgent need for blood donations at our hospital.",
+        "requirements": [
+            {
+                "type": "medical device",
+                "itemName":"",
+                "use": "",
+                "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQexReLK-grIzoOwn5Mex3CRLLFz45TidsDTOevnJGiHQ&s",
+                "quantity":""
+            },
+            {
+                "type": "medical equipment",
+                "itemName":"",
+                "use": "",
+                "image":"https://cdn.theatlantic.com/assets/media/img/posts/meddevices1.JPG",
+                "quantity":""
+            },
+            {
+                "type": "medication",
+                "itemName": "",
+                "use": "",
+                "image":"https://imageio.forbes.com/specials-images/imageserve/5e84eafba1a0ef00060510ac/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+                "quantity":""
+            }
+        ]
+    }
+]

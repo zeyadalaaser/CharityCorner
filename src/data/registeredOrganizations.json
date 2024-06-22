@@ -1,0 +1,36 @@
+[
+    {
+        "key": 1,
+        "name": "Resala",
+        "description": "Organization",
+        "contactDetails": "example@example.com",
+        "address": "123 Main Street, Cairo, Egypt",
+        "governorate": "Cairo",
+        "area": "Maadi",
+        "organizationType": "GUC",
+        "location": "Cairo, Maadi",
+        "locationLink": "https://my.atlist.com/map/e41353ff-25de-4fdf-b225-b75ed8d02a01/?share=true"
+    },
+    {
+        "key": 2,
+        "name": "57357",
+        "contactDetails": "info@57357.com",
+        "address": "456 Elm Street, Alexandria, Egypt",
+        "governorate": "Alexandria",
+        "area": "Miami",
+        "organizationType": "Hospital",
+        "location": "Alexandria, Miami",
+        "locationLink": "https://my.atlist.com/map/c1e50cf4-3e88-4aab-801a-ef0a0984f9c5/?share=true"
+    },
+    {
+        "key": 3,
+        "name": "Dar El-Orman",
+        "contactDetails": "contact@dar-elorman.org",
+        "address": "78 Abbas El Akaad, Cairo, Egypt",
+        "governorate": "Cairo",
+        "area": "Nasr City",
+        "organizationType": "Orphanage",
+        "location": "Cairo, Nasr City",
+        "locationLink": "https://my.atlist.com/map/7644fced-14bb-40fc-b438-8e337e726d2c/?share=true"
+    }
+]

@@ -1,0 +1,102 @@
+/* AddMarker.css */
+.add-marker-container {
+	text-align: center;
+	margin-top: 60px;
+	background-color: #f9fafb; /* Blue background color */
+	font-weight: bold; /* Bold font */
+	font-family: Arial, sans-serif; /* Font family */
+  }
+  .notif{
+	font-size: 16px;
+	color: #d70909; /* Text color */
+	margin-top: 10px; /* Adjust as needed */
+	font-family: Arial, sans-serif; /* Font family */
+	border: 5px; /* Remove border */
+
+
+  }
+  .header{
+	font-size: 24px;
+	color: #6d6669;
+	padding: 10px;
+	text-align: center;
+	box-shadow: 0.5px 0.5px 0.5px 5px #999ca4;
+	text-align: center; /* Center align the header */
+	margin-bottom: 20px; /* Add some bottom margin */
+
+  }
+
+.modal-action-btn-cancel{
+background-color: #007bff; /* Blue background color */
+color: #fff; /* White text color */
+border: none; /* Remove border */
+border-radius: 5px; /* Rounded corners */
+padding: 8px 16px; /* Decrease padding */
+font-size: 14px; /* Decrease font size */
+margin-right: 330px; /* Add margin to separate buttons */
+cursor: pointer; /* Add cursor pointer */
+transition: background-color 0.3s; /* Smooth transition */
+}
+.modal-action-btn-add {
+  background-color: #007bff; /* Blue background color */
+  color: #fff; /* White text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 8px 16px; /* Decrease padding */
+  font-size: 14px; /* Decrease font size */
+  margin-right: 10px; /* Add margin to separate buttons */
+  margin-top: 10px;
+  cursor: pointer; /* Add cursor pointer */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.modal-action-btn-cancel:hover,
+.modal-action-btn-add:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+.modal-action-btn-cancel:hover,
+.modal-action-btn-add:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+  .add-marker-button {
+	background-color: #007bff; /* Blue background color */
+	color: #fff; /* White text color */
+	border: 20px; /* Remove border */
+	border-radius: 5px; /* Rounded corners */
+	align-items: center;
+	justify-content: center;
+	padding: 15px 10px; /* Add padding */
+	font-size: 20px; /* Increase font size */
+	font-weight: bold; /* Bold font */
+	font-family: Arial, sans-serif; /* Font family */
+	cursor: pointer; /* Add cursor pointer */
+	transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .add-marker-button:hover {
+	background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .notification {
+	display: flex; /* Use flexbox */
+	flex-direction: column; /* Align items vertically */
+	align-items: center; /* Center items horizontally */
+	background-color: #bce2f1; /* Green background color */
+	color: rgb(31, 20, 82); /* White text color */
+	border-radius: 10px; /* Rounded corners */
+	padding: 20px; /* Add padding */
+	margin-top: 20px; /* Add top margin */
+	font-size: 24px; /* Increase font size */
+	font-weight: bold; /* Bold font */
+	font-family: "Arial",  cursive,sans-serif; /* Arial font */
+}
+  
+  .notification img {
+	max-width: 600px; /* Decrease the maximum width of the image */
+	max-height:400px ;
+	margin-top: 10px; /* Add margin to the top of the image */
+  }
+  

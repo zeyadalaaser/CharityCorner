@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "type": "Teaching",
+        "organization": "Al Orman School",
+        "description": "we're looking fo teacher to teach maths",
+        "requirements": [{
+          "subject": "Maths",
+          "area": "Miami",
+          "governorate": "Alexandria",
+          "numberOfStudents": 20,
+          "googleMapMarker": "Map Marker 2"
+        }]
+    },
+    {
+      "id": 2,
+      "type": "Teaching",
+      "organization": "School 2",
+      "description": "Description 2",
+      "requirements": [{
+        "subject": "Arabic",
+        "area": "Luxor",
+        "governorate": "Luxor",
+        "numberOfStudents": 20,
+        "googleMapMarker": "Map Marker 2"
+      }]
+    },
+    {
+      "id": 3,
+      "type": "Teaching",
+      "organization": "School 3",
+      "description": "we're looking fo teacher to teach English",
+      "requirements": [{
+        "subject": "English",
+        "area": "Asyut",
+        "governorate": "Asyut",
+        "numberOfStudents": 20,
+        "googleMapMarker": "Map Marker 2"
+      }]
+    }
+      
+]

@@ -1,0 +1,60 @@
+Clothes //
+    ->filtering parameters: age, gender, and season
+        ~age=[ranges/size] => 
+        ~gender=[Male, Female, Unisex]
+        ~season=[Summer, Winter, Spring, Fall]
+
+    ->details: type of clothing, age, gender, season, material, and the quantity
+
+School Supplies //
+    ->filtering parameters: type
+        ~type= [books, stationary]
+
+    -Stationary:
+        ->details: type of item, and amount requested
+
+    -Books:
+        ->details: book name, author, language, edition, short summary of what the book is about,
+                   a picture of the book and the quantity required of that book
+
+Toys //
+    ->filtering parameters: age, gender, and category
+        X~category: [board games, stuffed toys, dolls, sports, cars, outdoor]
+
+    ->details:  type, age, gender, category, picture of the toy, and quantity
+
+Food //
+    ->filtering parameters: type
+        ~type= [fruits and vegetables, canned foods, fresh meals, baked goods]
+
+    ->details: item name and quantity required (in kg if fruits and vegetables and amount for the rest)
+
+Medical Supplies
+    ->filtering parameters: type
+        ~type= [medical devices, medical equipment, medication]
+
+    -Medications:
+        ->filtering parameters: medical use
+            ~medical use= []
+
+        ->details: type of clothing, age, gender, season, material, and the quantity
+    
+    -Medical Supplies:
+        ->details: device type, use, image, quantity
+
+Blood Donations
+    ->filtering parameters: hospital, governorate, area
+    ->details: name of patient, blood type (including RH type), hospital name, hospital area, governorate, hospital address
+
+Teaching posts
+    ->filtering parameters: subject, area, and governorate
+        ~subject: [Maths, English, Arabic, French]
+
+    ->details:  number of students, address, Google map marker, subjects to be taught
+
+Medical cases posts
+    ->filtering parameters: specialty, organization name, area, and governorate
+        ~speciality= [Pediatrics, Psychiatry, Orthopedics, Cardiology, Ophthalmology]
+        ~organization name= [57357, Magdi Yacoub, ..]
+
+    ->details:  patient name, age, gender, weight, location (Google marker), address, organization name, medical specialty, and case description

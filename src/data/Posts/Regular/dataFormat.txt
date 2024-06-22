@@ -1,0 +1,165 @@
+    {
+        "id": 1,
+        "type": "Clothes",
+        "organization": "Resala",
+        "description": "We are in need of winter clothing for homeless individuals.",
+        "requirements": [
+            {
+                "type": "Jackets",
+                "age": "Adults",
+                "gender": "Male",
+                "season": "Winter",
+                "material": "Polyester",
+                "quantity": 50
+            },
+            {
+                "type": "Hats",
+                "age": "Adults",
+                "gender": "Female",
+                "season": "Winter",
+                "material": "Wool",
+                "quantity": 30
+            }
+        ]
+    },
+        {
+        "id": 13,
+        "type": "School Supplies",
+        "organization": "Resala",
+        "description": "We are seeking donations for essential school supplies.",
+        "requirements": [
+            {
+                "type": "Stationary",
+                "item": "Rulers",
+                "amount": 80
+            },
+            {
+                "image": "image_url",
+                "type": "Books",
+                "name": "Chemistry Essentials",
+                "author": "Sarah Adams",
+                "language": "English",
+                "edition": "2nd Edition",
+                "summary": "Key concepts and principles of chemistry.",
+                "quantity": 20
+            }
+        ]
+    },
+        {
+        "id": 17,
+        "type": "Toys",
+        "organization": "Resala",
+        "description": "We require toys for children in our orphanage.",
+        "requirements": [
+            {
+                "type": "Cars",
+                "age": "3-5 years",
+                "gender": "Male",
+                "category": "Cars",
+                "image": "image_url",
+                "quantity": 25
+            },
+            {
+                "image": "image_url",
+                "type": "Dolls",
+                "age": "6-10 years",
+                "gender": "Female",
+                "category": "Dolls",
+                "quantity": 30
+            }
+        ]
+    },
+        {
+        "id": 22,
+        "type": "Food",
+        "organization": "Resala",
+        "description": "We require fresh meals for our homeless shelter.",
+        "requirements": [
+            {
+                "type": "Fresh Meals",
+                "itemName": "Chicken Curry",
+                "quantity": "50 servings"
+            },
+            {
+                "type": "Fresh Meals",
+                "itemName": "Vegetable Stir Fry",
+                "quantity": "40 servings"
+            }
+        ]
+    },
+        {
+        "id": 25,
+        "type": "Blood Donations",
+        "organization": "Resala",
+        "description": "Urgent need for blood donations at our hospital.",
+        "requirements": [
+            {
+                "patientName": "John Doe",
+                "bloodType": "A+",
+                "hospitalName": "57357",
+                "hospitalArea": "Luxor",
+                "governorate": "Luxor",
+                "hospitalAddress": "123 Main Street"
+            }
+        ]
+    },
+        {
+        "id": 30,
+        "type": "Medical Supplies",
+        "organization": "Resala",
+        "description": "Urgent need for blood donations at our hospital.",
+        "requirements": [
+            {
+                "type": "medical device",
+                "use": "",
+                "image":"",
+                "quantity":""
+            },
+            {
+                "type": "medical equipment",
+                "use": "",
+                "image":"",
+                "quantity":""
+            },
+            {
+                "type": "medication",
+                "use": "",
+                "image":"",
+                "quantity":""
+            }
+        ]
+    }
+        {
+        "id": 1,
+        "type": "Teaching",
+        "organization": "Al Orman School",
+        "description": "we're looking fo teacher to teach maths",
+        "requirements": [{
+          "subject": "Maths",
+          "area": "Miami",
+          "governorate": "Alexandria",
+          "numberOfStudents": 20,
+          "googleMapMarker": "Map Marker 2"
+        }]
+    },
+      {
+    "id": 2,
+    "type": "Medical Case",
+    "organization": "57357",
+    "description": "Urgently need neurologists",
+    "requirements": [{
+      "medicalSpecialty": "Neurology",
+      "organization": "City Hospital",
+      "area": "Downtown",
+      "governorate": "New York",
+      "patientName": "Jane Smith",
+      "age": 35,
+      "gender": "Female",
+      "weight": "65 kg",
+      "location": "Google Marker Coordinates",
+      "address": "456 Oak Avenue",
+      "caseDescription": "Jane Smith is experiencing severe headaches and requires immediate evaluation by a neurologist."
+    }]
+  },
+
+

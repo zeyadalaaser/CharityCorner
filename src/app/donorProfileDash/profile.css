@@ -1,0 +1,167 @@
+
+.profile {
+    margin: 20px auto;
+    padding: 20px;
+    border: 5px solid #cccccc; /* Cooler shade of pink */
+    width: 80%;
+    max-width: 600px;
+    background-color: #cccccc; /* Light gray background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 8px 16px #000000; /* Shadow always visible */
+  }
+  
+  
+  /* Profile header */
+  .profile-header h1 {
+    margin-bottom: 10px; /* Increase margin bottom for spacing */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Change font family */
+    font-size: 45px; /* Increase font size */
+    color: #0d6efd; 
+  }
+  
+  /* Profile body */
+  .profile-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Profile image */
+  .profile-image {
+    width: 30%;
+  }
+  
+  .profile-image img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  /* Profile info */
+  .profile-info {
+    width: 65%;
+  }
+  
+  /* Edit, Save, Delete, Cancel buttons */
+  .edit-button,
+  .save-button,
+  .delete-button,
+  .submit,
+  .view-requests-button,
+  .cancel-button
+  {
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px; /* Increase border radius for a rounder shape */
+    font-size: 22px; /* Increase font size */
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Change font family */
+  }
+  
+  .edit-button {
+    background-color: #000000; 
+    color: #ffffff;
+  }
+  
+  .edit-button:hover {
+    background-color: #0d6efd; /* Lighter pink on hover */
+  }
+  
+  .save-button {
+    background-color: #0d6efd; /* Red */
+    color: #ffffff;
+  }
+  
+  .save-button:hover {
+    background-color: #0d6efd; /* Lighter pink on hover */
+  }
+  
+  .delete-button {
+    background-color: #000000; /* Red */
+    color: #ffffff;
+  }
+  
+  .delete-button:hover {
+    background-color: #0d6efd; /* Darker red on hover */
+  }
+  
+  .cancel-button {
+    background-color: #0d6efd; /* Red */
+    color: #ffffff;
+  }
+  
+  .cancel-button:hover {
+    background-color: #0d6efd; /* Darker gray on hover */
+  }
+  
+  .view-requests-button {
+    background-color: #0d6efd; /* Red */
+    color: #ffffff;
+  }
+  
+  .view-requests-button:hover {
+    background-color: #0d6efd; /* Darker gray on hover */
+  }
+  .submit {
+    background-color: #0d6efd; /* Red */
+    color: #ffffff;
+  }
+  
+  .submit:hover {
+    background-color: #0d6efd; /* Darker gray on hover */
+  }
+  
+  
+  /* Textbox styles */
+  input[type="text"],
+  input[type="date"],
+  input[type="tel"],
+  input[type="email"],
+  select,
+  input[type="password"],
+  select#donorType {
+    width: calc(100% - 22px); /* Adjust width as needed */
+    padding: 15px; /* Increase padding */
+    margin-bottom: 15px; /* Increase margin bottom */
+    border: 2px solid #ccc; /* Increase border thickness */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Change font family */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    transition: box-shadow 0.3s ease; /* Add transition for shadow */
+  }
+  
+  /* Focus styles */
+  input[type="text"]:focus,
+  input[type="date"]:focus,
+  input[type="tel"]:focus,
+  input[type="email"]:focus,
+  select:focus,
+  input[type="password"]:focus,
+  select#donorType:focus {
+    box-shadow: 0 0 20px #0d6efd(255, 110, 199, 0.5); /* Add shadow effect when focused */
+    outline: none; /* Remove default focus outline */
+  }
+  .password-input-container {
+    position: relative;
+  }
+  
+  .password-toggle-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .password-toggle-icon i {
+    font-size: 1.2em;
+    color: #0d6efd;
+  }
+  .map-container {
+    height: 400px; /* Adjust height as needed */
+  }

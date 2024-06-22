@@ -1,0 +1,97 @@
+/* Validate.css */
+
+.table-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the table */
+    align-items: center; /* Vertically center the table */
+    height: 100vh; /* Take up the full height of the viewport */
+    border: 1px solid #070406; /* Example color and border thickness */
+
+  }
+  
+  .table-header {
+    background-color: #bab6b9;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 100px;
+    align-items: center;
+    border: 1px solid #070406; /* Example color and border thickness */
+
+
+  }
+  
+  .ant-table {
+    margin-top: 20px;
+    border: 1px solid #3f3d3f; /* Example color and border thickness */
+  }
+  .header{
+    font-style: italic;
+    color: #525252;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0.5px 2px 0px 15px #595858;
+    text-decoration: underline;
+
+      
+  }
+
+  .ant-table-thead > tr > th {
+    background-color: #4d4a4c;
+    color: white;
+    text-align: center;
+    border: 1px solid #4d4a4c; /* Example color and border thickness */
+
+  }
+  
+  .ant-table-tbody > tr > td { /*inner table(cells)*/
+    text-align: center;
+    border: 1px solid #4c4a4b; /* Example color and border thickness */
+
+  }
+  
+  .action-links > a {
+    margin-right: 10px;
+    color: #913a57;
+  }
+  
+  .action-links > a:hover {
+    color: #913a57;
+  }
+  
+  .status-tag {
+    font-weight: bold;
+  }
+  
+  .status-pending {
+    color: rgb(81, 78, 79);
+  }
+  
+  .status-accepted {
+    color: rgb(29, 186, 15);
+  }
+  
+  .status-rejected {
+    color: rgb(172, 10, 10);
+  }
+  .tab-bar-menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #7a7a7a;
+}
+
+.tab-bar-menu button {
+    background-color: #ffffff;
+    color: rgb(200, 199, 199);
+    padding: 10px 35px;
+    margin: 0 30px;
+    margin-top: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.tab-bar-menu button:hover {
+  background-color: #8e8b8c;
+}

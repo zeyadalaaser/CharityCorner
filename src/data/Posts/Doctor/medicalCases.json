@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "type": "Medical Case",
+    "organization": "57357",
+    "description": "We need doctors asap",
+    "requirements": [{
+      "medicalSpecialty": "Cardiology",
+      "organization": "City Hospital",
+      "area": "Downtown",
+      "governorate": "New York",
+      "patientName": "John Doe",
+      "age": 45,
+      "gender": "Male",
+      "weight": "80 kg",
+      "location": "Google Marker Coordinates",
+      "address": "123 Main Street",
+      "caseDescription": "John Doe is experiencing chest pain and needs immediate medical attention."
+    }]
+  },
+  {
+    "id": 2,
+    "type": "Medical Case",
+    "organization": "57357",
+    "description": "Urgently need neurologists",
+    "requirements": [{
+      "medicalSpecialty": "Neurology",
+      "organization": "City Hospital",
+      "area": "Downtown",
+      "governorate": "New York",
+      "patientName": "Jane Smith",
+      "age": 35,
+      "gender": "Female",
+      "weight": "65 kg",
+      "location": "Google Marker Coordinates",
+      "address": "456 Oak Avenue",
+      "caseDescription": "Jane Smith is experiencing severe headaches and requires immediate evaluation by a neurologist."
+    }]
+  },
+  {
+    "id": 3,
+    "type": "Medical Case",
+    "organization": "57357",
+    "description": "Seeking pediatricians for children's hospital",
+    "requirements": [{
+      "medicalSpecialty": "Pediatrics",
+      "organization": "Children's Hospital",
+      "area": "Uptown",
+      "governorate": "New York",
+      "patientName": "Emily Johnson",
+      "age": 8,
+      "gender": "Female",
+      "weight": "25 kg",
+      "location": "Google Marker Coordinates",
+      "address": "789 Pine Street",
+      "caseDescription": "Emily Johnson is a pediatric patient with a high fever and needs attention from a pediatrician."
+    }]
+  },
+  {
+    "id": 4,
+    "type": "Medical Case",
+    "organization": "57357",
+    "description": "Emergency need for trauma surgeons",
+    "requirements": [{
+      "medicalSpecialty": "Trauma Surgery",
+      "organization": "Emergency Hospital",
+      "area": "Downtown",
+      "governorate": "New York",
+      "patientName": "Michael Brown",
+      "age": 28,
+      "gender": "Male",
+      "weight": "75 kg",
+      "location": "Google Marker Coordinates",
+      "address": "1010 Elm Street",
+      "caseDescription": "Michael Brown has sustained multiple injuries in a car accident and requires immediate surgical intervention from a trauma surgeon."
+    }]
+  },
+  {
+    "id": 5,
+    "type": "Medical Case",
+    "organization": "57357",
+    "description": "In need of orthopedic surgeons for sports injuries",
+    "requirements": [{
+      "medicalSpecialty": "Orthopedics",
+      "organization": "Sports Clinic",
+      "area": "Downtown",
+      "governorate": "New York",
+      "patientName": "Alex Rodriguez",
+      "age": 30,
+      "gender": "Male",
+      "weight": "85 kg",
+      "location": "Google Marker Coordinates",
+      "address": "111 River Road",
+      "caseDescription": "Alex Rodriguez has suffered a knee injury during a sports event and requires evaluation and treatment by an orthopedic surgeon."
+    }]
+  }
+  
+
+  
+      
+]
