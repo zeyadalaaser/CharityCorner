@@ -3,14 +3,14 @@ import { Provider } from "react-redux";
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import userReducer from "./userSlice";
 import postsReducer from "./postsSlice";
-import sessionStorage from "redux-persist/lib/storage/session";
+import storage from 'redux-persist/lib/storage';
 import { FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER, persistReducer, persistStore } from "redux-persist";
 import { PersistGate } from "redux-persist/integration/react";
 
 const persistConfig = {
   timeout: 100,
   key: 'root',
-  storage: sessionStorage,
+  storage,
 }
 
 const rootReducer = combineReducers({
