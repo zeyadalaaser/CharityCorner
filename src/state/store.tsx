@@ -1,6 +1,6 @@
 "use client"
 import { Provider } from "react-redux";
-import { configureStore } from "@reduxjs/toolkit";
+import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import userReducer from "./userSlice";
 import postsReducer from "./postsSlice";
 import sessionStorage from "redux-persist/lib/storage/session";
@@ -13,11 +13,13 @@ const persistConfig = {
   storage: sessionStorage,
 }
 
+const rootReducer = combineReducers({
+  posts: postsReducer,
+  user: userReducer
+});
+
 export const store = configureStore({
-  reducer: {
-    posts: persistReducer(persistConfig, postsReducer),
-    user: persistReducer(persistConfig, userReducer)
-  },
+  reducer: persistReducer(persistConfig, rootReducer),
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
       serializableCheck: {
@@ -41,5 +43,5 @@ export function StoreProvider({
   );
 };
 
-export type RootState = ReturnType<typeof store.getState>;
+export type RootState = ReturnType<typeof rootReducer>;
 export type AppDispatch = typeof store.dispatch;
